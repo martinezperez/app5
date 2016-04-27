@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>APLICACION 5</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/themesapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/ceniza.jpg','imagenes/can.jpg','imagenes/agg.jpg','imagenes/us.jpg','imagenes/ee.jpg')">
+<div data-role="page" id="Principal" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="c">
+    <h1>Informacion de La Tierra</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>DIA MUNDIAL DE LA TIERRA</h1>
+   <div>
+   <br>
+   </div>
+   <div>
+   <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:110porcentaje;height:60porcentaje;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+   </div>
+   </div>
+   </div>
+     <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>POR QUE SE CELEBRA?</h1>
+   <hr>
+   <p>El 22 de abril se celebra el Día Mundial de la Tierra. Esta fecha fue elegida porque el 22 de abril de 1970 una manifestación en Estados Unidos para que se creara en el Gobierno una agencia ambiental que trabaje sobre las problemáticas medioambientales.</p>
+   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen44','','imagenes/ee.jpg',1)"><img src="imagenes/yo.jpg" width="323" height="156" id="imagen44"></a></p>
+   <div>
+   <br>
+   </div>
+   <div></div>
+   </div>
+   </div>
+   <div>
+   <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>IMPORTANCIA DE CUIDARLA </h2>
+   <p>Se muestra informacion para cuidarla</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>ACCIONES PARA EVITAR LA CONTAMINACION </h2>
+   <p>Se muestra medidas para evitar la contaminacion</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CAMBIO CLIMATICO Y REFLEXION </h2>
+   <p>Muestra el cambio climatico y una reflexion</p>
+   </a>
+   </li>
+      <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>LAS TRES RRR Y MI COMUNIDAD </h2>
+   <p>Muestra las reglas de las tres RRR y mi Comunidad</p>
+   </a>
+   </li>
+   </ul>
+  </div>
+ <div data-role="footer" align="center" data-theme="a"data-position="fixed">
+   <div>
+   <img src="imagenes/tierra.png" width="46" height="46">
+   </div>
+    <h4>Aplicacion Cinco</h4>
+    <h4>Andrea Paola Martinez Perez </h4>
+    </div>
+    </div>
+    </div>  
+     
+ 
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>IMPORTANCIA DE CUIDARLA </h1>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/tt.jpg" width="400" height="500">
+       <p><center> El planeta Tierra es nuestro mundo ,es nuestro hogar es la cuna el habitat de miles y miles de formas de vidas y maravillas unicas en el universo y debemos aprender a cuidarlo y quererlo como es nesesario,ya que de la misma forma que nos preocupamos por mejorar y mantener bien nuestro propio hogar lo mismo debemos hacer con nuestro planeta;para de esta forma vivir mejor. </center></p>
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Aplicacion Cinco MPAP</h4>
+     <img src="res/android/tierra.png" width="56" height="46">
+  </div>
+         </div>
+          </div>
+ 
+           <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>ACCIONES PARA EVITAR LA CONTAMINACION</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p>Remplazar las bonbillas convencionales por las de bajo consumo</p>
+       <img src="imagenes/fo.jpg" width="400" height="500">
+       <p>Desenchufa todo lo que no uses. Por mas apagado el equipo consume electricidad.</p>
+         <img src="imagenes/de.jpg" width="400" height="500">
+       <p>No desperdicies ninguna gota de agua</p>
+      
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image144','','imagenes/agg.jpg',1)"><img src="imagenes/ag.jpg" width="560" height="350" id="Image144"></a></p>
+       <p>Tirar la basura en su lugar </p>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/us.jpg',1)"><img src="imagenes/bb.jpg" width="500" height="492" id="Image14"></a></p>
+       
+       </div>
+       </div>
+       <p><a href="http://www.natura-medioambiental.com/25-consejos-para-cuidar-el-medio-ambiente/" target="http://www.natura-medioambiental.com/25-consejos-para-cuidar-el-medio-ambiente/">PARA MAS INFORMACION IR:</a></p>
+       <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <img src="res/android/tierra.png" width="56" height="46">
+       <h4>Aplicacion Cinco MPAP</h4>
+        </div>
+         </div>
+          </div>
+          
+                <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CAMBIO CLIMATICO Y EFECTO INVERNADERO </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p><center>Desde que se creó este sitio en 1997 a la fecha han habido muchos cambios y avances paulatinos en la opinión científica, política y pública sobre el cambio climático y el calentamiento global.
+
+Del titubeo inicial, de los primeros pasos para enfrentar el problema, el retroceso con el irresponsable gobierno de George W. Bush y el boicot irracional de los anti-cambio-climático, hoy estamos en un momento donde los datos y los hechos ya no permiten ni negar, ni mentir, ni barrer el problema bajo la alfombra.
+
+Este sitio busca informar y aclarar dudas que puedan tener sobre este tema crucial en la historia de la humanidad.
+  </center></p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/can.jpg',1)"><img src="imagenes/cam.jpg" width="700" height="431" id="Image13"></a>
+    <p><center>El Cambio Climático es un cambio significativo y duradero de los patrones locales o globales del clima, las causas pueden ser naturales, como por ejemplo, variaciones en la energía que se recibe del Sol, erupciones volcánicas, circulación oceánica, procesos biológicos y otros, o puede ser causada por influencia antrópica (por las actividades humanas), como por ejemplo, a través de la emisión de CO2 y otros gases que atrapan calor, o alteración del uso de grandes extensiones de suelos que causan, finalmente, un calentamiento global. Más detalles en ¿Qué es el Cambio Climático? y Causas del Cambio Climático. </center></p>
+    <img src="imagenes/ef.jpg" width="400" height="500">
+    <p><center> El Efecto Invernadero es un fenómeno natural en el cuál la radiación de calor de la superficie de un planeta, en este caso la Tierra, es absorbida por los gases de la atmósfera y es reemitida en todas direcciones, lo que resulta en un aumento de la temperatura superficial. Los gases más eficientes en absorber el calor se llaman gases de efecto invernadero o gases de invernadero, entre ellos está el CO2 que es el que la humanidad en su consumo de recursos ha aumentado a niveles nunca vistos previamente y está causando el calentamiento global.</center></p>
+    <hr>
+    <h2>No tires tu mundo a la papelera recicla, reutiliza, renueva</h2>
+    <img src="imagenes/RE.jpg" width="400" height="500">
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="b" data-sition="fixed">
+       <img src="res/android/tierra.png" width="56" height="46">
+       <h4>Aplicacion Cinco MPAP</h4>
+        </div>
+         </div>
+          </div>
+          
+             <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>LAS TRES RRR</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <h2><center>
+         <p>La regla de las tres erres, también conocida como las tres erres de la ecología o simplemente 3R, es una propuesta sobre hábitos de consumo, popularizada por la organización ecologista Greenpeace, que pretende desarrollar hábitos como el consumo responsable. Este concepto hace referencia a estrategias para el manejo de residuos que buscan ser más sustentables con el medio ambiente y específicamente dar prioridad a la reducción en el volumen de residuos generados. Durante la Cumbre del G8 en junio de 2004, el Primer Ministro de Japón, Koizumi Junichiro, presentó la Iniciativa de las tres erres que busca construir una sociedad orientada hacia el reciclaje.1 En abril de 2005 se llevó a cabo una asamblea de ministros en la que se discutió con Estados Unidos, Alemania, Francia y otros 20 países la manera en que se puede implementar de manera internacional acciones relacionadas a las tres erres.</p>
+               <img src="imagenes/RR.jpg" width="400" height="500">
+              
+               <p>Reducir:
+
+Si reducimos el problema, disminuimos el impacto en el medio ambiente. Los problemas de concienciación, habría que solucionarlos empezando por esta erre. La reducción puede realizarse en 2 niveles: reducción del consumo de bienes o de energía. De hecho, actualmente la producción de energía produce numerosos desechos (desechos nucleares, dióxido de carbono.</p>
+<hr>
+<p>Reutilizar
+
+Segunda erre más importante, igualmente debido a que también reduce impacto en el medio ambiente, indirectamente. Ésta se basa en reutilizar un objeto para darle una segunda vida útil. Todos los materiales o bienes pueden tener más de una vida útil, bien sea reparándolos para un mismo uso o con imaginación para un uso diferente.</p>
+         
+       <hr>
+       <p>Reciclar
+
+Ésta es una de las erres más populares debido a que el sistema de consumo actual ha preferido usar envases de materiales reciclables (plásticos y bricks, sobre todo), pero no biodegradables. De esta forma se necesita el empleo en mayor forma personal y energía en el proceso.</p>
+<hr>
+<p>La tierra en mi comunidad</p>
+<!-- Start WOWSlider.com -->
+<iframe src="visor2/indexwow.html" style="width:110porcentaje;height:360porcentaje;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+      
+    
+       </div>
+       </div>
+       
+       <div data-role="footer" align="center" data-theme="b" data-sition="fixed">
+       <img src="res/android/tierra.png" width="56" height="46">
+       <h4>Aplicacion Cinco MPAP</h4>
+        </div>
+         </div>
+          </div>
+        
+                 
+            
+   
+          
+      
+</body>
+</html>
